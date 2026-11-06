@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Biografía</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f8efff;
+            color: #333;
+            margin: 20px;
+        }
+
+        header {
+            background-color: #d8b9ed;
+            padding: 25px;
+            text-align: center;
+            border-radius: 15px;
+        }
+
+        nav {
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            margin: 10px;
+            color: #713b91;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 12px;
+        }
+
+        h2 {
+            color: #874eaa;
+        }
+
+        img {
+            width: 200px;
+            border-radius: 10px;
+        }
+
+        button {
+            background-color: #874eaa;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .oscuro {
+            background-color: #292333;
+            color: white;
+        }
+
+        .oscuro section {
+            background-color: #40364d;
+        }
+
+        .oscuro h2 {
+            color: #e4c3ff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header id="inicio">
+
+        <h1>Mi Biografía</h1>
+
+        <p>¡Bienvenido a mi página personal!</p>
+
+        <p>Hay más en mi de lo que suelo mostrar</p>
+
+        <button id="modo">Cambiar modo oscuro</button>
+
+    </header>
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav>
+
+        <a href="#sobremi">Sobre mí</a> |
+        <a href="#historia">Mi historia</a> |
+        <a href="#gustos">Mis gustos</a> |
+        <a href="#estudios">Estudios</a> |
+        <a href="#metas">Mis metas</a> |
+        <a href="#galeria">Galería</a>
+
+    </nav>
+
+    <hr>
+
+    <!-- SOBRE MÍ -->
+    <section id="sobremi">
+
+        <h2>¿Quién soy?</h2>
+
+        <img src="me.jpeg" alt="Mi fotografía">
+
+        <p>Nombre:Violeta Guadalupe Salazar Vargas</p>
+
+        <p>Edad:17 años</p>
+
+        <p>Fecha de nacimiento:21/febrero/2009</p>
+
+        <p>Lugar de origen:León, Gto.</p>
+
+        <p>Descripción personal:Soy una persona introspectiva, curiosa y sensible, pero con una actitud reservada. </p>
+
+    </section>
+
+    <!-- MI HISTORIA -->
+    <section id="historia">
+
+        <h2>Mi historia</h2>
+
+        <p>
+            Uno de los mejores recuerdos que tengo fue cuando fui al cine con mi familia (Mamá, Papá y Hermana). Me diverti mucho, además de que comí comida chatarra.
+        </p>
+
+        <img src="c.jpeg" alt="Recuerdo de mi infancia">
+
+    </section>
+
+    <!-- MIS GUSTOS -->
+    <section id="gustos">
+
+        <h2>Mis gustos y pasatiempos</h2>
+
+        <p>Mis actividades favoritas son:</p>
+
+        <ul>
+            <li>Ver peliculas de terror con mi familia.</li>
+            <li>Escuchar podcast de terror o documentales.</li>
+            <li>Jugar videojuegos en mi celular.</li>
+            <li>Escuchar música.</li>
+        </ul>
+
+        <h3>Mis favoritos</h3>
+
+        <p>Música:Pony-Ginuwine y The beatles-And I Love her.</p>
+
+        <p>Películas:Hotel, Masacre en Texas y GhostLand.</p>
+
+        <p>Libros: Clemencia-Ignacio Manuel Altamirano.</p>
+
+        <p>Comida: Tamales.</p>
+
+    </section>
+
+ <!-- MIS ESTUDIOS -->
+    <section id="estudios">
+
+        <h2>Mi vida académica</h2>
+
+        <p>
+            Estudio en el CETAC 10 y estudio Programación.
+        </p>
+
+        <p>Mis logros: Uno de los logros academicos que tengo son diplomas por mi rendimiento academico.</p>
+
+    </section>
+
+    <!-- MIS METAS -->
+    <section id="metas">
+
+        <h2>Mis sueños y metas</h2>
+
+        <p>
+            Uno de mis mayores sueños es poder viajar por todo el mundo.
+        </p>
+
+        <ul>
+            <li>Trabajar en una Aerolinea.</li>
+            <li>Aprender distintos idiomas.</li>
+            <li>Tener una vida economica solvente.</li>
+        </ul>
+
+    </section>
+
+    <!-- GALERÍA -->
+    <section id="galeria">
+
+        <h2>Mi galería de recuerdos</h2>
+
+        <p>Algunos momentos especiales de mi vida:</p>
+
+        <img src="f.jpeg" alt="Recuerdo 1">
+
+        <img src="s.jpeg" alt="Recuerdo 2">
+
+        <img src="a.jpeg" alt="Recuerdo 3">
+
+    </section>
+
+    <!-- MENSAJE FINAL -->
+    <section>
+
+        <h2>Un poco más sobre mí</h2>
+
+        <p>Soy una mezcla de pensamientos que no siempre sé expresar, curiosidades que nunca terminan y sueños que todavía no tienen forma. 
+            Me gusta observar, escuchar y comprender. A veces prefiero el silencio, otras veces quisiera descubrirlo todo. Simplemente soy alguien que intenta encontrar su propio camino.</p>
+
+        <button id="saludo">Haz clic aquí</button>
+
+        <p id="mensaje"></p>
+
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+
+        <a href="#inicio">⬆ Regresar al inicio</a>
+
+        <p>Mi biografía | Página personal</p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script>
+
+        // EVENTO CLICK: cambiar modo oscuro
+
+        document.getElementById("modo")
+        .addEventListener("click", function() {
+
+            document.body.classList.toggle("oscuro");
+
+        });
+
+
+        // EVENTO CLICK: mostrar mensaje
+
+        document.getElementById("saludo")
+        .addEventListener("click", function() {
+
+            document.getElementById("mensaje").textContent =
+            "¡Gracias por visitar mi biografía!";
+
+        });
+
+    </script>
+    <footer>
+    <p>
+        © 2026 Violeta Gudalupe Salazar Vargas.Todos los derechos reservados.
+    </p>
+</footer>
+
+</body>
+</html>
